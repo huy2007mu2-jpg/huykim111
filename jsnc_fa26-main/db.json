@@ -1,0 +1,22 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Nguyễn kim huy",
+      "age": 19,
+      "email": "huy2007mu2.com"
+    },
+    {
+      "name": "Nguyễn kim huy",
+      "age": 19,
+      "email": "huy2007mu2.com",
+      "id": 2
+    },
+    {
+      "name": "Nguyễn kim huy",
+      "age": 19,
+      "email": "huy2007mu2.com",
+      "id": 3
+    }
+  ]
+}
