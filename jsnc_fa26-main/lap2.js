@@ -21,14 +21,42 @@ for (let i = 0; i < names.length; i++) {
     console.log(element);
 }
 // bai 3
-const student = {
-  id: 1,
-  name: "Nguyễn Văn An",
-  age: 20,
-  email: "an@gmail.com",
-  major: "CNTT",
-};
-console.log(student.name);
-console.log(student.age);
-console.log(student.email);
-console.log(student.major);
+const student = [
+  {
+    id: 1,
+    name: "Nguyễn Văn An",
+    age: 20,
+    email: "an@gmail.com",
+    major: "CNTT",
+  },
+  {
+    id: 2,
+    name: "Trần Thị Bình",
+    age: 21,
+    email: "binh@gmail.com",
+    major: "Kinh tế",
+  },
+  {
+    id: 3,
+    name: "Lê Văn Nam",
+    age: 22,
+    email: "nam@gmail.com",
+    major: "Marketing",
+  }
+];
+for (let index = 0; index < student.length; index++) {
+  const element = student[index];
+  console.log(element.id);
+  console.log(element.name);
+  console.log(element.age);
+  console.log(element.email);
+  console.log(element.major);
+}
+
+const hocsinhDiv = document.getElementById("hocsinh");
+let comen = "";
+for(let i = 0; i < student.length; i++){
+  comen +=` ten sv la ${student[i].name}<br>`;
+
+}
+hocsinhDiv.innerHTML = comen;
